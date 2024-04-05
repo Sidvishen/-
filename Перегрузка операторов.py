@@ -15,12 +15,7 @@ print(buiding)
 print(buiding1)
 print(buiding2)
 
-#if buiding == buiding1:
-    #print('house')
-    #print(buiding.numberOfFloors)
 
-#print(buiding == buiding1)
-#print(buiding == buiding2)
 
 
 
