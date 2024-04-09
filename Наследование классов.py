@@ -26,4 +26,9 @@ class Kia(Car):
         return 300 * self.price
 
 
-
+car1 = Car()
+print(car1.horse_powers())
+nissan1 = Nissan()
+print(nissan1.horse_powers())
+kia1 = Kia()
+print(kia1.horse_powers())
