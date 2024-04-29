@@ -18,6 +18,8 @@ def main_function(input_data):
     except ProcessingException as e:
         print('Ошибка обработки:', e)
         raise
+    finally:
+        print('Я отработал в любом случае')
 
 if __name__ == '__main__':
     try:
