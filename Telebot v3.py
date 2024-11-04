@@ -25,8 +25,8 @@ async def inform(message):
                          'Вы можете нажать кнопку Calories для расчета коллорий.', reply_markup=kb)
 
 kb = ReplyKeyboardMarkup()
-button = KeyboardButton ( text = 'Calories')
-button2 = KeyboardButton (text = 'Информация')
+button = KeyboardButton ( text = 'Calories', resize_keyboard = True)
+button2 = KeyboardButton (text = 'Информация', resize_keyboard = True)
 kb.row(button, button2)
 class UserState(StatesGroup):
     age = State()
